@@ -3,6 +3,7 @@ torch
 torchvision
 numpy
 Pillow
-streamlit
+# streamlit
 gdown
 scipy
+gradio
