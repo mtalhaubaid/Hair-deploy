@@ -1,0 +1,11 @@
+# Ignore everything inside models/
+models/*
+
+# But do not ignore .pth and .tflite files
+!models/*.pth
+!models/*.tflite
+# Ignore __pycache__ folder
+__pycache__/
+
+
+models/pspnet_resnet101_sgd_lr_0.002_epoch_100_test_iou_0.918.pth
